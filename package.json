@@ -1,0 +1,36 @@
+{
+  "name": "smartadvisorprojectcode",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "node ./out/www.js",
+    "compile": "node ./node_modules/typescript/bin/tsc -p ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "browser-sync": "^2.26.3",
+    "console": "^0.7.2",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "~4.13.1",
+    "global": "^4.3.2",
+    "gulp": "^3.9.1",
+    "gulp-less": "^4.0.1",
+    "gulp-mocha": "^6.0.0",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-tsb": "^2.0.7",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "solc": "^0.4.25",
+    "typescript": "^3.4.3",
+    "serve-favicon": "~2.3.0",
+    "web3": "^0.20.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.10.5"
+  }
+}
